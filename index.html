@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/AOS.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/CV2.ico">
+    <script defer src="js/app.js" ></script>
+    <script src="js/AOS.js"></script>
+    <title>Mi CV</title>
+</head>
+<body>
+    <header class="top-header" >
+        <nav class="top-nav">
+            <a href="#" class="name"><img src="img/Johar-small.jpg" alt="Foto de perfil"><span>Johar Reyes</span></a>
+            <button class="open-menu" aria-label="Abrir menú"><img src="img/menu.png" alt="Abrir menú"></button>
+            
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú"><img src="img/close.png" alt="Cerrar menú"></button>
+
+                <li><a href="#perfil">Perfil</a></li>
+                <li><a href="#experiencia" >Experiencia</a></li>
+                <li><a href="#Habilidades" >Habilidades</a></li>
+                <li><a href="#contacto" >Contacto</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <div class="horizontal-padding vertical-padding" id="perfil">
+        <section class="perfil" >
+            <div class="perfil-info">
+                <h1 class="perfil-titulo" >Hola, soy <br> Johar Reyes</h1>
+                <p class="perfil-detalles" >Soy ingeniero en sistemas con experiencia en soporte técnico, diseño y creación de páginas web, mantenimiento de equipos de cómputo y manejo de personal, me apasiona  el desarrollo de software y la administración de sistemas.</p>
+                <button class="perfil-btn" > <a href="cv/Profesional Currículum JR.pdf" target="_blank">Descargar CV</a> </button>
+            </div>
+            <div class="perfil-foto-section">
+                <img class="image-profile" src="img/Johar-perfil.png" alt="Foto principal de perfil">
+            </div>
+            
+        </section>
+
+    </div>
+    <script>
+        AOS.init();
+      </script>
+    <section class="experiencias" id="experiencia">
+        <img class="wave" src="img/wave.svg" alt="Parte de experiencia con efecto ola">
+        <div class="cuerpo-experiencia">
+            <h2 class="titulo-experiencias">Experiencia</h2>
+            <div class="experiencia-grid">
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experiencia" data-aos="fade-left">
+                    <div class="experiencia-fecha">Marzo de 2022 hasta la fecha</div>
+                    <div class="experiencia-empresa">CORPO MKT</div>
+                    <div class="experiencia-puesto">Coordinador de Sistemas</div>
+                    <div class="experiencia-detalles"><ul class="skills">
+                    <li>Soporte Técnico (Atención a tickets Helpdesk)
+                    </li>
+                    <li>Administración y mantenimiento de equipos y sistemas informáticos a nivel hardware y software. 
+                    </li>
+                    <li>Manejo e instalación de Windows, Windows Server y Linux. 
+                    </li>
+                    <li>Implementaciones de cableado para voz y datos, así como de redes inalámbricas. 
+                    </li>
+                    <li>Control de inventario de los equipos activos. 
+                    </li>
+                <li>Respaldos de servidores y bases de datos. </li>
+                </ul></div>
+                </div>
+            <div class="experiencia experiencia_left" data-aos="fade-right">
+                <div class="experiencia-fecha">Noviembre 2017 a Febrero 2022</div>
+                <div class="experiencia-empresa">CORPO MKT</div>
+                <div class="experiencia-puesto">Asegurador de calidad y formador de personal</div>
+                <div class="experiencia-detalles"><ul>
+                <li>Capacitación y seguimiento al personal de experiencia y nuevo ingreso (servicio al cliente, soporte técnico y ventas)
+                </li>
+                <li>Auditorias de calidad y procesos. 
+                </li>
+                <li>Revisión lineamientos de seguridad de la información.
+                </li>
+                <li>Actualización de manuales
+                </li>
+            </ul></div>
+            </div>
+            <div class="line"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="line"></div>
+            <div class="experiencia" data-aos="fade-left">
+                <div class="experiencia-fecha">Junio de 2016 a octubre 2017</div>
+                <div class="experiencia-empresa">Atel Soluciones</div>
+                <div class="experiencia-puesto">Asesor telefónico</div>
+                <div class="experiencia-detalles"><ul>
+                <li>Atención al cliente
+                </li>
+                <li>Soporte técnico 
+                </li>
+                <li>Configuraciones y fallas 
+                </li>
+                <li>Cotización de equipos celulares
+                </li>
+                <li>Control de incidencias
+                </li>
+            </ul></div>
+            </div>
+            </div>
+
+        </div>
+        <img id="Habilidades" class="wave-bottom" src="img/wave.svg" alt="Parte de experiencia con efecto de ola">
+    </section>
+    <div class="horizontal-padding vertical-padding">
+        <section class="Habilidades" >
+            <h2 class="habilidades-titulo" >Habilidades</h2>
+            <ul class="lista-habilidades">
+                <li class="habilidad-habilidad">Soporte Técnico</li>
+                <li class="habilidad-habilidad">Manejo de sistemas operativos</li>
+                <li class="habilidad-habilidad">Mantenimiento preventivo y correctivo</li>
+                <p>
+                <li class="habilidad-habilidad">HTML</li>
+                <li class="habilidad-habilidad">CSS</li>
+                <li class="habilidad-habilidad">Javascript</li>
+                <li class="habilidad-habilidad">MySQL</li>
+                <li class="habilidad-habilidad">PHP</li> 
+            </ul>
+        </section>
+    </div>
+    <section class="contact" >
+        <img class="wave-contact" src="img/wave.svg" alt="Parte de experiencia con efecto ola">
+        <div class="contact-container">
+
+            <h2 id="contacto" class="contact-titulo" >Contacto</h2>
+            <div class="contact_form">
+    
+                <div class="formulario">      
+                  
+                    <h3>Escríbeme:</h3>
+            
+            
+                      <form action="https://formspree.io/f/mwkydpqe" method="post">       
+            
+                        
+                            <p>
+                              <label name="name" for="nombre" class="colocar_nombre">Nombre
+                                <span class="obligatorio">*</span>
+                              </label>
+                                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                            </p>
+                          
+                            <p>
+                              <label name="email" for="email" class="colocar_email">Email
+                                <span class="obligatorio">*</span>
+                              </label>
+                                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                            </p>
+                        
+                            <p>
+                              <label name="telefone" for="telefone" class="colocar_telefono">Teléfono
+                              </label>
+                                <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                            </p>   
+                          
+                            <p>
+                              <label name="subject" for="asunto" class="colocar_asunto">Asunto
+                                <span class="obligatorio">*</span>
+                              </label>
+                                <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                            </p>    
+                          
+                            <p>
+                              <label name="message" for="mensaje" class="colocar_mensaje">Mensaje
+                                <span class="obligatorio">*</span>
+                              </label>                     
+                                                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                            </p>                    
+                          
+                            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+            
+                            <p class="aviso">
+                              <span class="obligatorio"> * </span>los campos son obligatorios.
+                            </p>          
+                        
+                      </form>
+                </div>  
+              </div>
+        </div>
+        
+    </section>
+    <script src="js/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+    
+</body>
+</html>
