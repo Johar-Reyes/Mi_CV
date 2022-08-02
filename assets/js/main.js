@@ -91,8 +91,8 @@
     this.classList.toggle('bi-x')
   })
 
-  /**
-   * Scrool with ofset on links with a class name .scrollto
+  
+   /* Scrool with ofset on links with a class name .scrollto*/
    
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
@@ -110,7 +110,7 @@
   }, true)
 
   /**
-   * Scroll with ofset on page load with hash links in the url
+   * Scroll with ofset on page load with hash links in the url*/
    
   window.addEventListener('load', () => {
     if (window.location.hash) {
@@ -119,7 +119,7 @@
       }
     }
   });
-  */
+  
   /**
    * Hero type effect
    */
@@ -152,7 +152,7 @@
       }
     })
   }
-
+  
   /**
    * Porfolio isotope and filter
    */
