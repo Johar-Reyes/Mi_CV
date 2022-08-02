@@ -1,198 +1,541 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href="css/AOS.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <link rel="icon" href="img/CV2.ico">
-    <script defer src="js/app.js" ></script>
-    <script src="js/AOS.js"></script>
-    <title>Mi CV</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Mi CV</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  
+
+
 </head>
+
 <body>
-    <header class="top-header" >
-        <nav class="top-nav">
-            <a href="#" class="name"><img src="img/Johar-small.jpg" alt="Foto de perfil"><span>Johar Reyes</span></a>
-            <button class="open-menu" aria-label="Abrir menú"><img src="img/menu.png" alt="Abrir menú"></button>
-            
-            <ul class="menu">
-                <button class="close-menu" aria-label="Cerrar menú"><img src="img/close.png" alt="Cerrar menú"></button>
 
-                <li><a href="#perfil">Perfil</a></li>
-                <li><a href="#experiencia" >Experiencia</a></li>
-                <li><a href="#Habilidades" >Habilidades</a></li>
-                <li><a href="#contacto" >Contacto</a></li>
-            </ul>
-        </nav>
-        
-    </header>
-    <div class="horizontal-padding vertical-padding" id="perfil">
-        <section class="perfil" >
-            <div class="perfil-info">
-                <h1 class="perfil-titulo" >Hola, soy <br> Johar Reyes</h1>
-                <p class="perfil-detalles" >Soy ingeniero en sistemas con experiencia en soporte técnico, diseño y creación de páginas web, mantenimiento de equipos de cómputo y manejo de personal, me apasiona  el desarrollo de software y la administración de sistemas.</p>
-                <button class="perfil-btn" > <a href="cv/Profesional Currículum JR.pdf" target="_blank">Descargar CV</a> </button>
-            </div>
-            <div class="perfil-foto-section">
-                <img class="image-profile" src="img/Johar-perfil.png" alt="Foto principal de perfil">
-            </div>
-            
-        </section>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-    </div>
-    <script>
-        AOS.init();
-      </script>
-    <section class="experiencias" id="experiencia">
-        <img class="wave" src="img/wave.svg" alt="Parte de experiencia con efecto ola">
-        <div class="cuerpo-experiencia">
-            <h2 class="titulo-experiencias">Experiencia</h2>
-            <div class="experiencia-grid">
-                <div class="empty"></div>
-                <div class="line"></div>
-                <div class="experiencia" data-aos="fade-left">
-                    <div class="experiencia-fecha">Marzo de 2022 hasta la fecha</div>
-                    <div class="experiencia-empresa">CORPO MKT</div>
-                    <div class="experiencia-puesto">Coordinador de Sistemas</div>
-                    <div class="experiencia-detalles"><ul class="skills">
-                    <li>Soporte Técnico (Atención a tickets Helpdesk)
-                    </li>
-                    <li>Administración y mantenimiento de equipos y sistemas informáticos a nivel hardware y software. 
-                    </li>
-                    <li>Manejo e instalación de Windows, Windows Server y Linux. 
-                    </li>
-                    <li>Implementaciones de cableado para voz y datos, así como de redes inalámbricas. 
-                    </li>
-                    <li>Control de inventario de los equipos activos. 
-                    </li>
-                <li>Respaldos de servidores y bases de datos. </li>
-                </ul></div>
-                </div>
-            <div class="experiencia experiencia_left" data-aos="fade-right">
-                <div class="experiencia-fecha">Noviembre 2017 a Febrero 2022</div>
-                <div class="experiencia-empresa">CORPO MKT</div>
-                <div class="experiencia-puesto">Asegurador de calidad y formador de personal</div>
-                <div class="experiencia-detalles"><ul>
-                <li>Capacitación y seguimiento al personal de experiencia y nuevo ingreso (servicio al cliente, soporte técnico y ventas)
-                </li>
-                <li>Auditorias de calidad y procesos. 
-                </li>
-                <li>Revisión lineamientos de seguridad de la información.
-                </li>
-                <li>Actualización de manuales
-                </li>
-            </ul></div>
-            </div>
-            <div class="line"></div>
-            <div class="empty"></div>
-            <div class="empty"></div>
-            <div class="line"></div>
-            <div class="experiencia" data-aos="fade-left">
-                <div class="experiencia-fecha">Junio de 2016 a octubre 2017</div>
-                <div class="experiencia-empresa">Atel Soluciones</div>
-                <div class="experiencia-puesto">Asesor telefónico</div>
-                <div class="experiencia-detalles"><ul>
-                <li>Atención al cliente
-                </li>
-                <li>Soporte técnico 
-                </li>
-                <li>Configuraciones y fallas 
-                </li>
-                <li>Cotización de equipos celulares
-                </li>
-                <li>Control de incidencias
-                </li>
-            </ul></div>
-            </div>
-            </div>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
 
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="Imagen de perfil" class="img-fluid rounded-circle image-profile">
+        <h1 class="text-light"><a href="index.html">Johar Reyes</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://wa.me/3311823819?text=¡Me+interesó+tú+CV!" target="_blank" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+          <a href="https://www.facebook.com/Johar.Reyes.1997" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://github.com/Johar-Reyes" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/joharreyeslink97" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
-        <img id="Habilidades" class="wave-bottom" src="img/wave.svg" alt="Parte de experiencia con efecto de ola">
-    </section>
-    <div class="horizontal-padding vertical-padding">
-        <section class="Habilidades" >
-            <h2 class="habilidades-titulo" >Habilidades</h2>
-            <ul class="lista-habilidades">
-                <li class="habilidad-habilidad">Soporte Técnico</li>
-                <li class="habilidad-habilidad">Manejo de sistemas operativos</li>
-                <li class="habilidad-habilidad">Mantenimiento preventivo y correctivo</li>
-                <p>
-                <li class="habilidad-habilidad">HTML</li>
-                <li class="habilidad-habilidad">CSS</li>
-                <li class="habilidad-habilidad">Javascript</li>
-                <li class="habilidad-habilidad">MySQL</li>
-                <li class="habilidad-habilidad">PHP</li> 
-            </ul>
-        </section>
-    </div>
-    <section class="contact" >
-        <img class="wave-contact" src="img/wave.svg" alt="Parte de experiencia con efecto ola">
-        <div class="contact-container">
+      </div>
 
-            <h2 id="contacto" class="contact-titulo" >Contacto</h2>
-            <div class="contact_form">
-    
-                <div class="formulario">      
-                  
-                    <h3>Escríbeme:</h3>
-            
-            
-                      <form action="https://formspree.io/f/mwkydpqe" method="post">       
-            
-                        
-                            <p>
-                              <label name="name" for="nombre" class="colocar_nombre">Nombre
-                                <span class="obligatorio">*</span>
-                              </label>
-                                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-                            </p>
-                          
-                            <p>
-                              <label name="email" for="email" class="colocar_email">Email
-                                <span class="obligatorio">*</span>
-                              </label>
-                                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-                            </p>
-                        
-                            <p>
-                              <label name="telefone" for="telefone" class="colocar_telefono">Teléfono
-                              </label>
-                                <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-                            </p>   
-                          
-                            <p>
-                              <label name="subject" for="asunto" class="colocar_asunto">Asunto
-                                <span class="obligatorio">*</span>
-                              </label>
-                                <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
-                            </p>    
-                          
-                            <p>
-                              <label name="message" for="mensaje" class="colocar_mensaje">Mensaje
-                                <span class="obligatorio">*</span>
-                              </label>                     
-                                                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                                            </p>                    
-                          
-                            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-            
-                            <p class="aviso">
-                              <span class="obligatorio"> * </span>los campos son obligatorios.
-                            </p>          
-                        
-                      </form>
-                </div>  
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a data-scroll href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
+          <li><a data-scroll href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Acerca de mi</span></a></li>
+          <li><a data-scroll href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Experiencia</span></a></li>
+          <li><a data-scroll href="#skills" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Habilidades</span></a></li>
+          <li><a data-scroll href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portafolio</span></a></li>
+          <li><a data-scroll href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contacto</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Johar Reyes</h1>
+      <p>Soy <span class="typed" data-typed-items="Coordinador de sistemas, Desarrollador web ,Soporte técnico, Freelancer"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Acerca de mi</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile-img.jpg" class="img-fluid name" alt="Mi foto de CV">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Coordinador de sistemas &amp; Desarrollador web.</h3>
+            <p class="fst-italic">
+              A continuación, te muestro mis datos personales, así como mi objetivo profesional:
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Fecha de nacimiento:</strong> <span>01/09/1997</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Teléfono:</strong> <span>3311823819</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Ciudad:</strong> <span>Guadalajara, MEX</span></li>
+                </ul>
               </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Edad:</strong> <span>24</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Correo:</strong> <span>joharreyes@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Estado Civil:</strong> <span>Casado</span></li>
+                </ul>
+              </div>
+            </div>
+            <br><br>
+            <p>
+              Soy ingeniero en sistemas con experiencia en soporte técnico, diseño y creación de páginas web, mantenimiento de equipos de cómputo y manejo de personal, me apasiona el desarrollo de software y la administración de sistemas.
+              <br><br><br>
+              Mi objetivo profesional es trabajar en una institución en la cual pueda desarrollar conceptos técnicos completos y demostrar mis habilidades en el área de las tecnologías de la información. 
+            </p>
+          </div>
         </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Experiencia</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+            <h3 class="resume-title">Datos Personales</h3>
+            <div class="resume-item pb-0">
+              <h4>Johar Andre Reyes Blanco</h4>
+              <p><em>Me gusta viajar, en especial a lugares que tienen playas, mis actividades favoritas son practicar artes marciales mixtas y jugar videojuegos de deportes, acción o terror.</em></p>
+              <ul>
+                <li>Emilio Rabaza 2326, Guadalajara, Jalisco, México.</li>
+                <li>33-11-82-38-19</li>
+                <li>joharreyes@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Historial Académico</h3>
+            <div class="resume-item">
+              <h4>Universidad Tecnológica Latinoamericana en Línea (UTEL)</h4>
+              <h5>2018 - 2022</h5>
+              <p><em>Ingeniería en Sistemas Computacionales</em></p>
+              <p>Obtuve mi título como ingeniero en sistemas computacionales, fue a lo largo de la carrera donde inicio mi gusto por el desarrollo de páginas web, así como la administración de sistemas.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Bootcamp de programación: DEV.F</h4>
+              <h5>2022</h5>
+              <p><em>Profesional en Coding</em></p>
+              <p>Este curso tuvo como objetivo afianzar mis conocimientos en desarrollo web usando lenguajes de maquetación y programación como HTML, CSS, JavaScript, con uso de plugins, librerías y frameworks como Bootstrap, React, Materialize, SweetAlert, Normalize, etc.</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
+            <h3 class="resume-title">Experiencia Profesional</h3>
+            <div class="resume-item">
+              <h4>Coordinador de Sistemas</h4>
+              <h5>Marzo de 2022 - Presente</h5>
+              <p><em>Corpo PT Marketing de México S.A de C.V</em></p>
+              <ul>
+                <li>Soporte Técnico (Atención a tickets Helpdesk)</li>
+                <li>Administración y mantenimiento de equipos y sistemas informáticos a nivel hardware y software</li>
+                <li>Manejo e instalación de Windows, Windows Server y Linux</li>
+                <li>Control de inventario de los equipos activos</li>
+                <li>Conocimientos básicos en redes</li>
+                <li>Respaldos de servidores y bases de datos</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Asegurador de calidad y formador de personal</h4>
+              <h5>Noviembre 2017 a febrero 2022</h5>
+              <p><em>Atención Telefónica ATEL</em></p>
+              <ul>
+                <li>Capacitación y seguimiento al personal de experiencia y nuevo ingreso (servicio al cliente, soporte técnico y ventas)</li>
+                <li>Monitoreo de llamadas y retroalimentación a los agentes </li>
+                <li>Auditorias de calidad y procesos</li>
+                <li>Revisión lineamientos de seguridad de la información</li>
+                <li>Análisis de áreas de mejora, impartición de talleres y cursos. </li>
+                <li>Actualización de manuales</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    
+
+    
+
+    
+
+    
+
+    <!-- ======= Sección de habilidades ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Conocimientos</h2>
+          <p>Tengo un dominio intermedio de los principales lenguajes que se usan en el mundo del desarrollo web:</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">PHP <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">MySQL <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Habilidades</h2>
+          <p>Considero que mis principales competencias son:</p>
+          <ul class="skills">
+            <li>Iniciativa</li>
+            <p>Me esfuerzo en realizar cambios innovadores que ayuden a la mejora continua y me gusta que se me reconozca como una persona comprometida y productiva.</p>
+            <li>Trabajo en equipo</li>
+            <p>Considero que cada persona es un mundo y todos podemos aportar cosas que nos beneficien unos a otros, para ello siempre mantengo una mente abierta a escuchar y realizar los cambios necesarios.</p>
+            <li>Autodidacta</li>
+            <p>Tengo la facilidad de organizarme correctamente y cada día seguir aprendiendo ya sea con lecturas o cursos de formación complementaria.</p>
+          </ul>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-headset"></i></div>
+            <h4 class="title"><a href="#skills">Soporte Técnico</a></h4>
+            <p class="description">Tengo experiencia laboral con el sistema de tickets (Servide desk), solucionando las incidencias reportadas por los usuarios de la organización.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-file-earmark-code"></i></div>
+            <h4 class="title"><a href="#skills">Creación de páginas web</a></h4>
+            <p class="description">Se ha presentado la oportunidad de realizar distintos proyectos web ya sea laboral y personalmente.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-tools"></i></div>
+            <h4 class="title"><a href="#skills">Mantenimiento preventivo y correctivo de equipos de computo</a></h4>
+            <p class="description">Tengo experiencia armando, modificando y reparando equipos de cómputo tanto portátiles como de escritorio.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="bi bi-people-fill"></i></div>
+            <h4 class="title"><a href="#skills">Manejo de personal</a></h4>
+            <p class="description">Fui consultor y capacitador del área de calidad en una empresa de atención telefónica durante 4 años en donde estaba a cargo de grupos de hasta 50 personas.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="bi bi-pc-display-horizontal"></i></div>
+            <h4 class="title"><a href="#skills">Manejo de sistemas operativos</a></h4>
+            <p class="description">Con experiencia en instalación y administración de sistemas operativos Windows XP, 7, 8, 10, Windows Server y Linux.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+            <h4 class="title"><a href="#skills">Conocimientos básicos en redes</a></h4>
+            <p class="description">Cuento con un certificado sobre Cisco CCNA Fundamentos de Networking para Redes IP, en el cual aprendí las bases teóricas y prácticas del funcionamiento de las redes IP..</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portafolio</h2>
+          <p>En esta sección se pueden observar algunos de mis proyectos web o diseños realizados:</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">Todos</li>
+              <li data-filter=".filter-app">Páginas Web</li>
+              <li data-filter=".filter-card">Diseños</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="Imagen de WebAtel">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web Atel"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-1.html" title="Mas detalles"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="Imagen de login">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Cajero Automático"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-2.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="Imagen Servidor Proactivo">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Servidor Proactivo"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-3.html" title="Mas detalles"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Menú Restaurant"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-4.html" title="Mas detalles"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="Proyecto clon de Pinterest">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Clon de Pinterest"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-5.html" title="Mas detalles"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.1.jpg" class="img-fluid" alt="Logo de Restaurant">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-5.1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Logo Restaurant"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-4.html" title="Mas detalles"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="Clon de Airbnb">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Clon Airbnb"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-6.html" title="Mas detalles"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="Clon de Google Search">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Clon de Google Search"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details-7.html" title="Mas detalles"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contacto</h2>
+          <p>Para contactarme puedes llenar el formulario, enviar un WhatsApp o marcarme directo a mi número de teléfono.</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Domicilio:</h4>
+                <p>Emilio Rabaza 2326 CP. 44730 , Guadalajara, Jalisco, México</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Correo:</h4>
+                <p>joharreyes@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Teléfono:</h4>
+                <p>3333823819</p>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.782242287452!2d-103.3010199!3d20.6784364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b1652cbec469%3A0x95a90a3289124e37!2sC.%20Emilio%20Rabaza%202326%2C%20Blanco%20y%20Cu%C3%A9llar%2C%2044730%20Guadalajara%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1659033089895!5m2!1ses-419!2smx" width="95%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="https://formspree.io/f/mwkydpqe" target="_blank" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Ingresa tu nombre completo</label>
+                  <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre" class="form-control"  >
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Ingresa tu correo</label>
+                  <input type="email" class="form-control" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Asunto</label>
+                <input type="text" class="form-control" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+              </div>
+              <div class="form-group">
+                <label for="name">Mensaje</label>
+                <textarea class="form-control" name="introducir_mensaje" rows="10" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Cargando</div>
+                <div class="error-message"></div>
+                <div id="Send" class="sent-message">Tu mensaje se envió correctamente, en breve te responderé!</div>
+              </div>
+              <div class="text-center"><button type="submit" name="enviar_formulario" id="enviar" onclick="Retirar()">Enviar Mensaje</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+      <strong><span>Johar Reyes</span></strong>
+      </div>
+      <div class="credits">
         
-    </section>
-    <script src="js/jquery.min.js"></script>
+        Descarga <a href="cv/Profesional Currículum JR.pdf" target="_blank">Mi Curriculum</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#hero" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+  <!--  Main JS archivos -->
+  <script defer src="assets/js/main.js"></script>
+  
+  <script defer src="assets/js/sweetalert.min.js"></script>
+  <script defer src="assets/js/alert.js"></script>
+
+  <!-- Vendor JS Files -->
+  
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  
+  
+  <!-- Smooth Scrolling effect  -->
+  <script src="assets/js/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
@@ -210,7 +553,7 @@ $(document).ready(function(){
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 900, function(){
+      }, 650, function(){
 
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
@@ -219,6 +562,8 @@ $(document).ready(function(){
   });
 });
 </script>
-    
+ 
+
 </body>
+
 </html>
